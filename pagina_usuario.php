@@ -79,7 +79,7 @@
   <div class="container fullscreen z-depth-1-half" id="desktop">  
 
     <div class="row ">
-      <div class="col"><!-- VAZIO --></div>
+   
 
       <div class="col-12">
 
@@ -140,6 +140,7 @@
 
             <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-2-tab">
 
+              <h2 class="mt-3 font-weight-bold text-center">Ativar Conta</h2>
                 <?php include "forms/ativar_conta.php" ?>
 
             </div>
@@ -151,12 +152,8 @@
 
             <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-4-tab">
 
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="text-center">Contato</h4>
-                  <?php include "forms/contato.php"; ?>
-                </div>
-              </div>
+              <h2 class="mt-3 font-weight-bold text-center">Contato</h2>
+              <?php include "forms/contato.php"; ?>
 
             </div>
 
@@ -167,13 +164,23 @@
 
       </div>
 
-      <div id="sumir"><div class="col"><!-- VAZIO --></div></div>
+    
 
     </div>
 
   </div>
 
 </div>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
 
 
  <script type="text/javascript" src="js/validar.js"></script>

@@ -1,23 +1,28 @@
 <!-- Form contact -->
-<form class="p-5 grey-text needs-validation" novalidate>
-  <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
-    <input type="text" id="form3" class="form-control form-control-sm" required>
-    <label for="form3">Seu nome</label>
+<div class="card blue-gradient">
+  <div class="card-body">
+    <form class="p-3 needs-validation blue-gradient" novalidate>
+      <div class="md-form"> <i class="fas fa-user prefix"></i>
+        <input type="text"  class=" form-control-sm" required>
+        <label class="white-text">Seu nome</label>
+      </div>
+      <div class="md-form"> <i class="fas fa-envelope prefix"></i>
+        <input type="text"  class=" form-control-sm white-text" required>
+        <label class="white-text">E-mail</label>
+      </div>
+      <div class="md-form "> <i class="fas fa-tag prefix"></i>
+        <input type="text"  class="form-control-sm white-text" required>
+        <label class="white-text">Assunto</label>
+      </div>
+      <div class="md-form"> <i class="fas fa-pencil-alt prefix"></i></i>
+        <textarea type="text"  class="md-textarea form-control-sm white-text" rows="4" required></textarea>
+        <label class="white-text">Mensagem</label>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary">Enviar <i class="far fa-paper-planeml-1"></i></button>
+      </div>
+    </form>
+
   </div>
-  <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
-    <input type="text" id="form2" class="form-control form-control-sm" required>
-    <label for="form2">E-mail</label>
-  </div>
-  <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
-    <input type="text" id="form32" class="form-control form-control-sm" required>
-    <label for="form34">Assunto</label>
-  </div>
-  <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
-    <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4" required></textarea>
-    <label for="form8">Mensagem</label>
-  </div>
-  <div class="text-center mt-4">
-    <button class="btn btn-primary">Enviar <i class="far fa-paper-planeml-1"></i></button>
-  </div>
-</form>
+</div>
 <!-- Form contact -->
