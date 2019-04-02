@@ -1,0 +1,135 @@
+/*---------------FORMATAÇÃO PADRÃO---------------*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+  	margin: 0;
+
+}
+
+/*---------------FORMATAÇÃO PADRÃO---------------*/
+
+
+
+
+
+/*-------------------------RESPONSIVO EM DESKTOP-------------------------*/
+
+/*@media only screen and (min-width: 720px){*/
+
+      /*Alinhamento do navbar*/
+      #header-desktop {
+          position: fixed;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          transition: top 0.3s;
+      }
+
+
+      /*DIVISÃO DAS COLUNAS DO CABEÇALHO*/
+      .grid-container-column {
+          display: grid;
+          grid-template-columns: 25% 50% 25%;
+          background-color: #262626;
+          /*grid-gap: 10px;
+          padding: 10px;*/
+      }
+
+
+      /*FORMATAÇÃO DOS CONTEÚDOS DO CABEÇALHO*/
+      .grid-container-column > div {
+          text-align: center;
+          padding: 15px 0;
+          display: block;
+      }
+
+
+      /*FORMATAÇÃO DOS LINKS DAS INFORMAÇÕES*/
+      div .info a {
+          padding: 20px 15px 25px;
+          font-size: 16px;
+          color: white;
+          text-decoration: none;
+          text-shadow: 1px 1px 2px black;
+          transition: 0.3s;
+      }
+
+      /*Muda de cor quando mouse passa por cima*/
+      div .info a:hover {
+          background-color: white;
+          color: #D3D3D3;
+      }
+
+
+      /*Alinhamento da busca*/
+      .busca {
+          padding-bottom: -5px;
+          padding-top: -5px;
+      }
+
+      /*Formatação do texto da Caixa de Pesquisa */
+      form.example input[type=text] {
+          padding-bottom: 5px;
+          padding-top: 5px;
+          padding-right: 10px;
+          text-indent: 10px;
+          font-size: 13px;
+          border: 1px solid grey;
+          float: left;
+          width: 60%;
+          border-radius: 25px 0 0 25px;
+      }
+
+       /*Formatação do botão da Caixa de Pesquisa */
+      form.example button {
+          float: left;
+          width: 20%;
+          padding-bottom: 5px;
+          padding-top: 5px;
+          padding-right: 10px;
+          background: linear-gradient(to right, #3344ff, #3366ff);
+          color: white;
+          font-size: 13px;
+          border: 1px solid grey;
+          border-left: none;
+          cursor: pointer;
+          border-radius: 0 25px 25px 0;
+      }
+
+      form.example button:hover {
+          background: #0b7dda;
+      }
+
+      form.example::after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+
+/*-------------------------RESPONSIVO EM DESKTOP-------------------------*/
+
+
+
+
+
+/*-------------------------RESPONSIVO EM TABLET-------------------------*/
+
+/*@media only screen and (min-width: 783px) and (max-width: 909px) {
+      #header-desktop {
+          display: none;
+      }
+}*/
+/*-------------------------RESPONSIVO EM TABLET-------------------------*/
+
+
+
+
+/*-------------------------RESPONSIVO EM CELULAR-------------------------*/
+
+@media only screen and (max-width: 425px){ 
+      .sumir {
+          display: none;
+      }
+}
+
+
