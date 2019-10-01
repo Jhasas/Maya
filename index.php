@@ -27,7 +27,7 @@
 
 
       <!-- LOGO -->
-      <a class="navbar-brand" href="home.php">Navbar</a>
+      <a class="navbar-brand" href="home.php"><img src="img/logo1.png" width="90" class="img-fluid"></a>
 
       <!-- Botão para Mostrar e Recolher o NAVBAR no Mobile -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         
         <!-- Links -->
-        <ul class="navbar-nav mr-auto smooth-scroll">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#como-funciona">Como funciona?</a>
             </li>
@@ -51,12 +51,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="#contato">Contato</a>
             </li>
+            
         </ul>
         <!-- Links -->
 
 
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLRForm">Entre ou Cadastre-se</button>
+            <button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#modalLRForm">Entre ou Cadastre-se</button>
 
             
 
@@ -73,24 +74,31 @@
 
     <div class="mask rgba-black-light">
 
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100  text-center">
 
             <div class="col-lg-5 col-md-12">
 
-                  <form class="p-5 white-text needs-validation" name="cep" novalidate>
-                    <div class="md-form form-sm"><i class="fas fa-map-marker-alt prefix"></i>
-                      <input type="text" id="validationCustom01" class="form-control form-control-sm white-text" required>
-                      <label for="validationCustom01 white-text" >Digite seu CEP</label>
-                    </div>
-                    
+
+
+                    <!-- Heading -->
+                    <h3 class="display-4 font-weight-bold white-text pt-5 mb-2">Empresas especializadas a sua disposição</h3>
+
+                    <!-- Divider -->
+                    <hr class="hr-light">
+
+                    <!-- Description -->
+                    <h4 class="white-text my-4">Encontre alguem para fazer o serviço que você precisa.</h4>
+
+
+
                     <div class="text-center mt-4">
-                      <a href="javascript: submitform();"><button class="btn btn-primary">BUSCAR <i class="far fa-paper-planeml-1"></i></button></a>
+                      <a class="btn btn-primary btn-lg" href="home.php"> <i class="fas fa-search"></i> PROCURAR SERVIÇOS</a>
                     </div>
-                  </form>
+                 
                   
-                  <div class="text-center">
+                 <!--  <div class="text-center">
                     <button type="button" class="btn btn-outline-primary waves-effect" data-toggle="modal" data-target="#exampleModal">NÃO SEI MEU CEP</button>
-                  </div>  
+                  </div>   -->
 
 
                   
@@ -137,8 +145,7 @@
               <div class="col-md-4 mb-1" >
                   <i class="far fa-grin-beam fa-4x blue-text"></i>
                   <h4 class="my-4 font-weight-bold">Facilidade</h4>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
-                      assumenda deleniti hic.</p>
+                  <p class="grey-text">Com o site sua vida vai ficar fácil, pois vai ser um processo totalmente online, onde você procura um serviço e combina depois com as empresa.</p>
               </div>
               <!--Grid column-->
 
@@ -155,8 +162,7 @@
               <div class="col-md-4 mb-1">
                   <i class="far fa-clock fa-4x blue-text"></i>
                   <h4 class="my-4 font-weight-bold" >Rapidez</h4>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
-                      assumenda deleniti hic.</p>
+                  <p class="grey-text">Faz com que o seu tempo de pesquisa renda mais, pois o site está focado somente em serviços.</p>
               </div>
               <!--Grid column-->
 
@@ -165,165 +171,6 @@
 
         </section>
         <!--Section: COMO FUNCIONA-->
-
-
-        <hr class="my-5">
-
-        <!--Section: Serviços-->
-        <section id="serviços" class="text-center">
-
-          <!-- Heading -->
-          <h2 class="mb-5 font-weight-bold">Serviços</h2>
-          
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-              <div class="view overlay z-depth-1-half">
-                <img src="img/senna.jpg" class="img-fluid">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <h4 class="my-4 font-weight-bold">Carros</h4>
-              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam minima
-                assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <div class="view overlay z-depth-1-half">
-                <img src="img/marcenaria.jpg" class="img-fluid">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <h4 class="my-4 font-weight-bold">Marcenaria</h4>
-              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam minima
-                assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <div class="view overlay z-depth-1-half">
-                <img src="img/concertos.jpg" class="img-fluid">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <h4 class="my-4 font-weight-bold">Concertos</h4>
-              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam minima
-                assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-        </section>
-        <!--Section: Serviços-->
-
-        <hr class="my-5">
-
-
-        <!--Section: Empresas-->
-        <section id="cadastro-empresa">
-
-            <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold text-center">Empresas</h2>
-
-            <!--Grid row-->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-6 mb-4">
-
-                  <!--Carousel Wrapper-->
-                  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-                    <!--Indicators-->
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-                    </ol>
-                    <!--/.Indicators-->
-                    <!--Slides-->
-                    <div class="carousel-inner" role="listbox">
-                      <!--First slide-->
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://cdn11.bigcommerce.com/s-912c5/product_images/uploaded_images/microsoft-banner.jpg" alt="First slide">
-                      </div>
-                      <!--/First slide-->
-                      <!--Second slide-->
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="http://static1.gamespot.com/uploads/original/1509/15094575/2831326-9826454141-25905.jpg" alt="Second slide">
-                      </div>
-                      <!--/Second slide-->
-                      <!--Third slide-->
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="https://media.cdn.gradconnection.com/uploads/7bae1202-5f75-42af-957d-4d6fed98f2b5-Google-Logo.png" alt="Third slide">
-                      </div>
-                      <!--/Third slide-->
-                    </div>
-                    <!--/.Slides-->
-                    <!--Controls-->
-                    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                    <!--/.Controls-->
-                  </div>
-                  <!--/.Carousel Wrapper-->
-
-                </div>
-                <!--/.Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-
-                    <!--Excerpt-->
-                    <a href="" class="teal-text">
-                        <h6 class="pb-1"><i class="fas fa-heart"></i><strong> Lifestyle </strong></h6>
-                    </a>
-                    <h4 class="mb-3"><strong>This is title of the news</strong></h4>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-                        debitis aut rerum.</p>
-
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-                        debitis aut rerum.</p>
-                    <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
-                    <a class="btn btn-primary btn-md">Read more</a>
-
-                </div>
-                <!--/.Grid column-->
-
-            </div>
-            <!--/.Grid row-->
-
-        </section>
-        <!--Section: Gallery-->
 
 
         <hr class="my-5">
@@ -372,31 +219,27 @@
             <!--First column-->
             <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                 <h6 class="text-uppercase font-weight-bold">
-                    <strong>Company name</strong>
+                    <strong>SDM</strong>
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit.</p>
+                <p>O SDM tem como objetivo facilitar para os usuários a busca de empresas qualificadas para resolver um problema doméstico, sem a necessidade de sair de casa.</p>
             </div>
             <!--/.First column-->
 
             <!--Second column-->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold">
-                    <strong>Products</strong>
+                    <strong>Serviços</strong>
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#!">MDBootstrap</a>
+                    <a href="carros.php">Automotivo</a>
                 </p>
                 <p>
-                    <a href="#!">MDWordPress</a>
+                    <a href="marcenaria.php">Marcenaria</a>
                 </p>
                 <p>
-                    <a href="#!">BrandFlow</a>
-                </p>
-                <p>
-                    <a href="#!">Bootstrap Angular</a>
+                    <a href="encanamento.php">Encanamento</a>
                 </p>
             </div>
             <!--/.Second column-->
@@ -404,20 +247,14 @@
             <!--Third column-->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold">
-                    <strong>Useful links</strong>
+                    <strong>Descubra</strong>
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#!">Your Account</a>
+                    <a href="#como-funciona">Como funciona</a>
                 </p>
                 <p>
-                    <a href="#!">Become an Affiliate</a>
-                </p>
-                <p>
-                    <a href="#!">Shipping Rates</a>
-                </p>
-                <p>
-                    <a href="#!">Help</a>
+                    <a href="#contato">Contato</a>
                 </p>
             </div>
             <!--/.Third column-->
@@ -445,15 +282,7 @@
 
   <script type="text/javascript" src="js/validar.js"></script>
 
-  <script type="text/javascript" src="js/cidade.js"></script>
 
-  <!-- Carousel options -->
-  <script>
-    $('.carousel').carousel({
-      interval: 3000,
-    });
-
-  </script>
 
 
 
@@ -464,8 +293,6 @@
 //modal login
 include "forms/login.php";
 
-include "forms/nao_sei_cep.php";
-
 ?>
 
 
@@ -473,6 +300,3 @@ include "forms/nao_sei_cep.php";
 </body>
 
 </html>
-
-
-
